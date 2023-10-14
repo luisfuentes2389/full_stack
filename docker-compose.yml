@@ -1,0 +1,7 @@
+ervices:
+  tasksdb:
+    image: mongo
+    container_name: tasksdb
+    restart: always
+    ports:
+      - 27017:27017
